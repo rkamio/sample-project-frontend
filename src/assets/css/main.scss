@@ -1,0 +1,20 @@
+@import "color";
+@import "reset";
+
+body {
+    font-family: "Meiryo","YuGothic","Yu Gothic","ヒラギノ角ゴ","sans-serif";
+    background-color: $bright;
+}
+
+%text-regular {
+    font-size: 14px;
+    color: $dark;
+}
+
+a:link {
+    color: $dark;
+}
+
+a:visited {
+    color: $primary;
+}
